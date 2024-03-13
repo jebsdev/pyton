@@ -4,19 +4,24 @@
     padding: 0;
     border: 0;
 }
-body {background-color: rgb(38, 38, 40);}
+body {background-color: rgb(42, 42, 42);}
 header {
     padding: 32px;
-    border-bottom: 4px solid #000000;
+    border-bottom: 4px solid #b93015;
     background-color: rgba(88, 88, 92, 0.974);}
  header div {text-align: center; /*Alinhamento no meio do  header*/}
 header div a {
-    color: rgb(0, 0, 0);/*a cor do texto*/
-    font-size: 25px;/*tamanho da fonte*/
-    line-height: 30px;/*espaçamento de linha do texto*/
+    color: rgb(26, 25, 25);/*a cor do texto*/
+    font-size: 35px;/*tamanho da fonte*/
+    line-height: 40px;/*espaçamento de linha do texto*/
     margin: 0 16px;/*espaçamento entre os textos*/
-    text-decoration: none;/*retirar decoração do texto*/
+    text-decoration: none;
     font-family: "Figtree", sans-serif;
+    transition: 700ms;
 }
-header div a:hover{color: rgb(100, 11, 11);
-transition:color 700ms;}
+header div a:hover{color: rgb(204, 64, 18);
+font-size: 40px;
+margin: 0 16px;
+text-decoration:none;
+font-family: "Figtree", sans-serif;
+transition:700ms;}
