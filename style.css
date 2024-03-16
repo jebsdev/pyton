@@ -7,10 +7,10 @@
 body {background-color: rgb(12, 4, 23);}
 header {
     padding: 32px;
-    border-bottom: 4px solid #140631;
+    border-bottom: 5px rgb(84, 11, 84);
     background-color: rgba(40, 13, 70, 0.974);}
- header div {text-align: center; /*Alinhamento no meio do  header*/}
-header div a {
+ .links {text-align: center; /*Alinhamento no meio do  header*/}
+.links a {
     color: rgb(192, 190, 190);/*a cor do texto*/
     font-size: 35px;/*tamanho da fonte*/
     line-height: 40px;/*espaçamento de linha do texto*/
@@ -19,7 +19,7 @@ header div a {
     font-family: "Figtree", sans-serif;
     transition: 700ms;
 }
-header div a:hover{color: rgb(95, 22, 214);
+.links a:hover{color: rgb(95, 22, 214);
 font-size: 40px;
 margin: 0 16px;
 text-decoration:none;
@@ -32,7 +32,7 @@ transition:700ms;}
 }
 #box img {
     border-radius:50%;
-    border: 5px solid #391587;
+    border: 5px solid rgb(54, 19, 107);
     margin-bottom: 32px;
 
 }
@@ -46,8 +46,18 @@ transition:700ms;}
 #box h2 {
     font-size: 20px;
     line-height: 34px;
-    font-family: "Figtree", sans-serif;;
+    font-family: "Figtree", sans-serif;
     margin-top: 8px;
     opacity: 0,8;
     color: rgb(181, 181, 181);
+}
+#LinksFooter {
+    padding-top: 90px;
+}
+
+#LinksFooter a {
+    padding-top: 90px;
+    padding-bottom: 8px;
+    border-bottom: 3px rgb(70, 19, 118);
+    
 }
